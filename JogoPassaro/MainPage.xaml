@@ -1,6 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="JogoPassaro.MainPage">
+             x:Class="JogoPassaro.MainPage"
+             Shell.NavBarIsVisible="False">
+
+      <Grid>
+
+        <Image Source="imagemfundo.png"
+               Aspect="AspectFill"
+               HorizontalOptions="Center"
+               VerticalOptions="Fill"/>
+
+        <Image Source="canocima.png"
+               HeightRequest="300"
+               WidthRequest="100"
+               Aspect="AspectFit"
+               HorizontalOptions="End"
+               VerticalOptions="End"/>
+
+        <Image Source="canobaixo.png"
+               HeightRequest="300"
+               WidthRequest="100"
+               Aspect="AspectFit"
+               HorizontalOptions="End"
+               VerticalOptions="Start"/>
+
+        <Image Source="imagembird.png"
+               HeightRequest="1000"
+               WidthRequest="50"
+               Aspect="AspectFit"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"/>
+
+
+        </Grid>
 
 </ContentPage>
